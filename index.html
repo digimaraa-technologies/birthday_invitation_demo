@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Akash's Birthday Invitation | 20 February 2027</title>
+<meta name="description" content="You're invited to celebrate Akash's birthday on 20 February 2027 at Sri Lakshmi Mahal, Srivaikundam, Tamil Nadu. Explore the invitation and confirm your attendance.">
+<meta name="keywords" content="birthday invitation, Akash birthday, 20 February 2027, birthday celebration, Sri Lakshmi Mahal, Srivaikundam, Tamil Nadu, digital invitation, RSVP birthday">
+<meta name="author" content="Digimaraa Technologies">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#d31876">
+<link rel="canonical" href="https://example.com/akash-birthday-invitation/">
+
+<!-- Social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Akash's Birthday Celebration">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Akash's Birthday Invitation | 20 February 2027">
+<meta property="og:description" content="Join us to celebrate Akash's birthday on Saturday, 20 February 2027 at Sri Lakshmi Mahal, Srivaikundam, Tamil Nadu.">
+<meta property="og:url" content="https://example.com/akash-birthday-invitation/">
+<meta property="og:image" content="https://example.com/akash-birthday-invitation/assets/birthday-hero.jpg">
+<meta property="og:image:alt" content="Guests gathered around a dessert buffet at Akash's birthday celebration">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Akash's Birthday Invitation | 20 February 2027">
+<meta name="twitter:description" content="Join us to celebrate Akash's birthday on Saturday, 20 February 2027 at Sri Lakshmi Mahal, Srivaikundam.">
+<meta name="twitter:image" content="https://example.com/akash-birthday-invitation/assets/birthday-hero.jpg">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Akash's Birthday Celebration",
+  "description": "You're invited to celebrate Akash's birthday on 20 February 2027 at Sri Lakshmi Mahal, Srivaikundam, Tamil Nadu.",
+  "startDate": "2027-02-20T18:00:00+05:30",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "Sri Lakshmi Mahal",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Srivaikundam",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    }
+  },
+  "organizer": { "@type": "Organization", "name": "Birthday Celebration Team" },
+  "image": "https://example.com/akash-birthday-invitation/assets/birthday-hero.jpg"
+}
+</script>
+</head>
+
+<body class="is-locked">
+
+<!-- ============================================================
+     REQUIREMENT 1 — Animated entrance curtain
+     ============================================================ -->
+<div class="curtain" id="curtain" role="dialog" aria-modal="true" aria-labelledby="curtainTitle">
+  <div class="curtain__glow" aria-hidden="true"></div>
+
+  <div class="curtain__panel curtain__panel--left" aria-hidden="true"></div>
+  <div class="curtain__panel curtain__panel--right" aria-hidden="true"></div>
+  <div class="curtain__seam" aria-hidden="true"></div>
+
+  <div class="curtain__particles" id="curtainParticles" aria-hidden="true"></div>
+  <div class="curtain__confetti" id="curtainConfetti" aria-hidden="true"></div>
+
+  <div class="curtain__center">
+    <p class="curtain__eyebrow">You are invited to</p>
+
+    <div class="curtain__seal" aria-hidden="true">
+      <svg viewBox="0 0 120 120" class="seal__ring">
+        <circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-width="1.25" opacity=".55"/>
+        <circle cx="60" cy="60" r="46" fill="none" stroke="currentColor" stroke-width=".75" opacity=".35"/>
+      </svg>
+      <span class="seal__monogram" data-bind="name">A</span>
+    </div>
+
+    <h1 class="curtain__title" id="curtainTitle">
+      <span class="curtain__title-sm" data-bind="shortTitle">Akash's Birthday</span>
+      <span class="curtain__title-lg">Celebration</span>
+    </h1>
+
+    <p class="curtain__date" data-bind="displayDate">Saturday, 20 February 2027</p>
+
+    <button class="curtain__open" id="curtainOpen" type="button">
+      <span class="curtain__open-label">Tap to Open Your Invitation</span>
+      <span class="curtain__open-hint">Click to Celebrate <span data-bind="name">Akash</span></span>
+    </button>
+
+    <p class="curtain__note">Best experienced with sound off &amp; a little curiosity</p>
+  </div>
+
+  <span class="curtain__corner curtain__corner--tl" aria-hidden="true"></span>
+  <span class="curtain__corner curtain__corner--tr" aria-hidden="true"></span>
+  <span class="curtain__corner curtain__corner--bl" aria-hidden="true"></span>
+  <span class="curtain__corner curtain__corner--br" aria-hidden="true"></span>
+</div>
+
+<a class="skip-link" href="#main">Skip to invitation content</a>
+
+<!-- ============================================================
+     Header
+     ============================================================ -->
+<header class="site-header" id="siteHeader">
+  <div class="container site-header__inner">
+    <a class="brand" href="#home" aria-label="Akash's Birthday — home">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="32" height="32">
+          <circle cx="16" cy="16" r="15" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".5"/>
+          <path d="M11 22 16 10l5 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13 18h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand__text" data-bind="shortTitle">Akash's Birthday</span>
+    </a>
+
+    <nav class="nav" id="primaryNav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#home">Home</a></li>
+        <li><a class="nav__link" href="#invitation">Invitation</a></li>
+        <li><a class="nav__link" href="#schedule">Schedule</a></li>
+        <li><a class="nav__link" href="#venue">Venue</a></li>
+        <li><a class="nav__link nav__link--cta" href="#rsvp">RSVP</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <span class="nav-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ==========================================================
+       Hero
+       ========================================================== -->
+  <section class="hero" id="home">
+    <div class="hero__media">
+      <img class="hero__image" src="assets/birthday-hero.jpg" data-asset="hero"
+           alt="Guests gathered around a dessert buffet with a celebration cake"
+           width="1920" height="1280" fetchpriority="high" decoding="async">
+      <div class="hero__scrim" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero__decor" aria-hidden="true">
+      <span class="hero__balloon hero__balloon--1"></span>
+      <span class="hero__balloon hero__balloon--2"></span>
+      <span class="hero__balloon hero__balloon--3"></span>
+      <span class="hero__spark hero__spark--1"></span>
+      <span class="hero__spark hero__spark--2"></span>
+      <span class="hero__spark hero__spark--3"></span>
+      <span class="hero__spark hero__spark--4"></span>
+    </div>
+
+    <div class="container hero__inner">
+      <p class="hero__eyebrow hero__animate" style="--d:0ms">Let's make some beautiful memories</p>
+
+      <h2 class="hero__title hero__animate" style="--d:90ms">
+        It's Time to&nbsp;Celebrate!
+      </h2>
+
+      <p class="hero__highlight hero__animate" style="--d:180ms">
+        <span data-bind="name">Akash</span>'s Birthday Celebration
+      </p>
+
+      <p class="hero__date hero__animate" style="--d:260ms">
+        <span class="hero__date-line" aria-hidden="true"></span>
+        <span data-bind="displayDate">Saturday, 20 February 2027</span>
+        <span class="hero__date-line" aria-hidden="true"></span>
+      </p>
+
+      <p class="hero__copy hero__animate" style="--d:340ms">
+        With hearts full of happiness, we invite you to join us for a special celebration filled with
+        love, laughter, and unforgettable memories.
+      </p>
+
+      <div class="hero__actions hero__animate" style="--d:420ms">
+        <a class="btn btn--gold" href="#invitation">Discover the Invitation</a>
+        <a class="btn btn--ghost" href="#rsvp">RSVP Now</a>
+      </div>
+    </div>
+
+    <p class="hero__badge hero__animate" style="--d:500ms" aria-hidden="true">You're Invited!</p>
+
+    <a class="hero__scroll" href="#invitation" aria-label="Scroll to the invitation">
+      <span class="hero__scroll-line" aria-hidden="true"></span>
+    </a>
+  </section>
+
+  <!-- ==========================================================
+       REQUIREMENT 2 — Scratch to reveal
+       ========================================================== -->
+  <section class="section section--invitation" id="invitation">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-head__eyebrow">The Invitation</p>
+        <h2 class="section-head__title">Scratch to Reveal</h2>
+        <p class="section-head__sub">Something special awaits you! Scratch below to reveal the details of
+          <span data-bind="name">Akash</span>'s birthday celebration.</p>
+        <span class="section-head__ornament" aria-hidden="true"></span>
+      </header>
+
+      <div class="scratch reveal" id="scratchCard">
+        <div class="scratch__frame">
+          <div class="scratch__inner" id="scratchInner" aria-hidden="true">
+            <p class="invite__kicker">You're invited!</p>
+            <p class="invite__lead">Join us to celebrate</p>
+            <h3 class="invite__title"><span data-bind="name">Akash</span>'s Birthday Celebration</h3>
+            <p class="invite__date" data-bind="displayDate">Saturday, 20 February 2027</p>
+
+            <svg class="invite__cake" viewBox="0 0 120 96" role="img" aria-label="Illustration of a birthday cake with lit candles">
+              <rect x="26" y="52" width="68" height="30" rx="6" fill="currentColor" opacity=".16"/>
+              <rect x="20" y="38" width="80" height="22" rx="6" fill="currentColor" opacity=".24"/>
+              <path d="M20 46c8 6 14-4 22 2s14-4 22 2 14-4 22 2 14-4 14 2v8H20z" fill="currentColor" opacity=".34"/>
+              <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".7">
+                <path d="M44 30v8"/><path d="M60 24v14"/><path d="M76 30v8"/>
+              </g>
+              <g fill="currentColor">
+                <ellipse cx="44" cy="24" rx="3.4" ry="5.4"/><ellipse cx="60" cy="16" rx="3.4" ry="5.4"/><ellipse cx="76" cy="24" rx="3.4" ry="5.4"/>
+              </g>
+            </svg>
+
+            <p class="invite__message">With hearts full of joy we raise a toast to a wonderful year ahead.
+              Your presence is the greatest gift — come share in the laughter, the cake, and the memories
+              we will make together.</p>
+
+            <dl class="invite__meta">
+              <div class="invite__meta-row">
+                <dt>Time</dt>
+                <dd data-bind="startTimeLabel">6:00 PM onwards</dd>
+              </div>
+              <div class="invite__meta-row">
+                <dt>Venue</dt>
+                <dd><span data-bind="venue.name">Sri Lakshmi Mahal</span>, <span data-bind="venue.address">Srivaikundam, Tamil Nadu, India</span></dd>
+              </div>
+            </dl>
+
+            <p class="invite__celebrate">Celebrate With Us</p>
+            <a class="btn btn--rose btn--sm" href="#schedule">See the Schedule</a>
+          </div>
+
+          <canvas class="scratch__canvas" id="scratchCanvas" aria-hidden="true"></canvas>
+        </div>
+
+        <div class="scratch__controls">
+          <p class="scratch__tip" id="scratchTip">Use your finger or mouse to scratch away the gold foil.</p>
+          <button class="btn btn--outline btn--sm" id="scratchManual" type="button">Reveal Invitation Instead</button>
+        </div>
+
+        <p class="scratch__status" id="scratchStatus" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Countdown
+       ========================================================== -->
+  <section class="section section--countdown" id="countdown">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-head__eyebrow">The Big Day</p>
+        <h2 class="section-head__title">Counting Down to the Celebration</h2>
+        <p class="section-head__sub">Every moment brings us closer to a wonderful day!</p>
+        <span class="section-head__ornament" aria-hidden="true"></span>
+      </header>
+
+      <div class="countdown reveal" id="countdownTimer" role="timer" aria-live="off" aria-label="Countdown to Akash's birthday">
+        <div class="countdown__unit">
+          <span class="countdown__slot"><span class="countdown__value" id="cdDays">00</span></span>
+          <span class="countdown__label">Days</span>
+        </div>
+        <div class="countdown__unit">
+          <span class="countdown__slot"><span class="countdown__value" id="cdHours">00</span></span>
+          <span class="countdown__label">Hours</span>
+        </div>
+        <div class="countdown__unit">
+          <span class="countdown__slot"><span class="countdown__value" id="cdMinutes">00</span></span>
+          <span class="countdown__label">Minutes</span>
+        </div>
+        <div class="countdown__unit">
+          <span class="countdown__slot"><span class="countdown__value" id="cdSeconds">00</span></span>
+          <span class="countdown__label">Seconds</span>
+        </div>
+
+        <p class="countdown__done" id="countdownDone" hidden>The Celebration Is Here! Thank you for celebrating with us!</p>
+
+        <p class="countdown__target">Celebrating <span data-bind="displayDate">Saturday, 20 February 2027</span> at <span data-bind="startTimeLabel">6:00 PM onwards</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Schedule
+       ========================================================== -->
+  <section class="section section--schedule" id="schedule">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-head__eyebrow">The Programme</p>
+        <h2 class="section-head__title">The Celebration Schedule</h2>
+        <p class="section-head__sub">Here's how we'll make the day unforgettable.</p>
+        <span class="section-head__ornament" aria-hidden="true"></span>
+      </header>
+
+      <!-- Editable sample content: update the times, copy and photos below as the plan firms up. -->
+      <ol class="timeline">
+        <li class="timeline__item reveal">
+          <div class="timeline__body">
+            <span class="timeline__time">6:00 PM</span>
+            <h3 class="timeline__title">Guest Arrival</h3>
+            <p>Welcome to <span data-bind="name">Akash</span>'s birthday celebration! Join us and enjoy the festive atmosphere.</p>
+          </div>
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <figure class="timeline__figure">
+            <img src="assets/schedule-arrival.jpg" data-asset="scheduleArrival" alt="Balloons and warm festive lights set up as the guests arrive" loading="lazy" decoding="async" width="1200" height="800">
+          </figure>
+        </li>
+
+        <li class="timeline__item reveal">
+          <div class="timeline__body">
+            <span class="timeline__time">6:30 PM</span>
+            <h3 class="timeline__title">Cake Cutting</h3>
+            <p>The highlight of the evening! Gather around as we celebrate <span data-bind="name">Akash</span> with a special birthday cake.</p>
+          </div>
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <figure class="timeline__figure">
+            <img src="assets/schedule-cake.jpg" alt="A birthday cake with its candles lit, waiting for the cake-cutting moment" loading="lazy" decoding="async" width="1200" height="663">
+          </figure>
+        </li>
+
+        <li class="timeline__item reveal">
+          <div class="timeline__body">
+            <span class="timeline__time">7:00 PM</span>
+            <h3 class="timeline__title">Birthday Wishes &amp; Photography</h3>
+            <p>Capture wonderful moments, share your wishes, and make beautiful memories together.</p>
+          </div>
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <figure class="timeline__figure">
+            <img src="assets/schedule-wishes.jpg" alt="Golden glitter and sequins catching the light as birthday wishes are shared" loading="lazy" decoding="async" width="1200" height="800">
+          </figure>
+        </li>
+
+        <li class="timeline__item reveal">
+          <div class="timeline__body">
+            <span class="timeline__time">7:30 PM</span>
+            <h3 class="timeline__title">Dinner &amp; Celebration</h3>
+            <p>Enjoy a delicious dinner and continue celebrating with family and friends.</p>
+          </div>
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <figure class="timeline__figure">
+            <img src="assets/schedule-dinner.jpg" alt="A candlelit dining table set with flowers for the evening dinner" loading="lazy" decoding="async" width="1200" height="798">
+          </figure>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Highlights
+       ========================================================== -->
+  <section class="section section--highlights" id="highlights">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-head__eyebrow">What Awaits</p>
+        <h2 class="section-head__title">A Day Full of Happiness</h2>
+        <p class="section-head__sub">Every hour has been planned with love.</p>
+        <span class="section-head__ornament" aria-hidden="true"></span>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="assets/cake-cutting.jpg" data-asset="cakeCutting" alt="Friends gathered around the birthday cake during the celebration" loading="lazy" decoding="async" width="1200" height="675">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Cake Cutting</h3>
+            <p>A special moment to celebrate <span data-bind="name">Akash</span>'s birthday.</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="assets/family-celebration.jpg" data-asset="familyCelebration" alt="Family and friends gathered together in celebration" loading="lazy" decoding="async" width="1200" height="800">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Family &amp; Friends</h3>
+            <p>A wonderful gathering of the people who make life special.</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="assets/birthday-dinner.jpg" data-asset="dinner" alt="Guests raising their glasses in a toast over dinner" loading="lazy" decoding="async" width="1200" height="800">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Delicious Food</h3>
+            <p>Enjoy a memorable dinner with everyone.</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media card__media--ornament" aria-hidden="true">
+            <svg viewBox="0 0 120 120" class="card__ornament">
+              <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M60 92s-26-16-26-36a14 14 0 0 1 26-7 14 14 0 0 1 26 7c0 20-26 36-26 36z"/>
+              </g>
+              <g fill="currentColor" opacity=".5">
+                <circle cx="60" cy="22" r="2.5"/><circle cx="24" cy="40" r="2"/><circle cx="96" cy="40" r="2"/>
+                <circle cx="32" cy="16" r="1.6"/><circle cx="88" cy="16" r="1.6"/>
+              </g>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Love &amp; Memories</h3>
+            <p>Celebrate together and create moments worth remembering.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Venue
+       ========================================================== -->
+  <section class="section section--venue" id="venue">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-head__eyebrow">The Venue</p>
+        <h2 class="section-head__title">Where the Celebration Happens</h2>
+        <p class="section-head__sub">We look forward to welcoming you to a wonderful evening of birthday celebrations.</p>
+        <span class="section-head__ornament" aria-hidden="true"></span>
+      </header>
+
+      <div class="venue reveal">
+        <div class="venue__media">
+          <img src="assets/venue.jpg" data-asset="venue" alt="Elegant banquet hall set up with round tables for the event" loading="lazy" decoding="async" width="1400" height="932">
+          <span class="venue__pin" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+          </span>
+        </div>
+
+        <div class="venue__body">
+          <h3 class="venue__name" data-bind="venue.name">Sri Lakshmi Mahal</h3>
+          <p class="venue__address" data-bind="venue.address">Srivaikundam, Tamil Nadu, India</p>
+          <p class="venue__note">Venue details are supplied by the organizer and may be updated before the event.</p>
+
+          <a class="btn btn--gold" id="mapsLink" data-bind="venue.mapsUrl"
+             href="https://www.google.com/maps/search/?api=1&query=Sri+Lakshmi+Mahal%2C+Srivaikundam%2C+Tamil+Nadu"
+             target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/>
+            </svg>
+            View on Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Dress code
+       ========================================================== -->
+  <section class="section section--dress" id="dresscode">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-head__eyebrow">The Dress Code</p>
+        <h2 class="section-head__title">Dress to Celebrate</h2>
+        <p class="section-head__sub">Come dressed in your festive best and make the celebration even more special.</p>
+        <span class="section-head__ornament" aria-hidden="true"></span>
+      </header>
+
+      <div class="dress">
+        <article class="dress__card reveal">
+          <span class="dress__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 10h16l-3 9 9 12-6 23H18L12 31l9-12z"/><path d="M27 19h10"/>
+            </svg>
+          </span>
+          <h3 class="dress__title">Women</h3>
+          <p>Elegant ethnic wear, festive dresses, or traditional attire.</p>
+        </article>
+
+        <article class="dress__card reveal">
+          <span class="dress__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 12h24l4 10-6 2v28H22V24l-6-2z"/><path d="M28 12v8h8v-8"/>
+            </svg>
+          </span>
+          <h3 class="dress__title">Men</h3>
+          <p>Traditional attire, shirts and trousers, or smart casual wear.</p>
+        </article>
+
+        <article class="dress__card reveal">
+          <span class="dress__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="32" cy="20" r="10"/><path d="M14 52c0-10 8-16 18-16s18 6 18 16"/><path d="M22 16c0-6 4-9 10-9s10 3 10 9"/>
+            </svg>
+          </span>
+          <h3 class="dress__title">Children</h3>
+          <p>Comfortable, colourful festive outfits.</p>
+        </article>
+      </div>
+
+      <p class="dress__note reveal">Dress code is a friendly suggestion, not a requirement — comfort first.</p>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Wishes
+       ========================================================== -->
+  <section class="section section--wishes" id="wishes">
+    <div class="container">
+      <div class="wishes reveal">
+        <span class="wishes__heart" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="currentColor">
+            <path d="M24 42s-18-11.2-18-23.4C6 11.3 11.2 6 17.4 6c3.6 0 6.6 1.7 8.6 4.3C28 7.7 31 6 34.6 6 40.8 6 46 11.3 46 18.6 46 30.8 24 42 24 42z"/>
+          </svg>
+        </span>
+
+        <h2 class="wishes__title">Your Wishes Mean the World</h2>
+        <p class="wishes__text">Your love, blessings, and presence are the most precious gifts we could ask for.
+          Thank you for being a part of <span data-bind="name">Akash</span>'s special day.</p>
+
+        <div class="wishes__ornament" aria-hidden="true">
+          <span class="wishes__cake">
+            <svg viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <rect x="22" y="42" width="76" height="26" rx="6"/>
+              <path d="M22 50c9 7 15-5 23 3s14-5 23 3 15-5 15 3v11"/>
+              <path d="M44 32v10M60 26v16M76 32v10"/>
+              <circle cx="44" cy="26" r="3.4"/><circle cx="60" cy="18" r="3.4"/><circle cx="76" cy="26" r="3.4"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       RSVP
+       ========================================================== -->
+  <section class="section section--rsvp" id="rsvp">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-head__eyebrow">Kindly Respond</p>
+        <h2 class="section-head__title">Will You Join Us?</h2>
+        <p class="section-head__sub">Your presence will make <span data-bind="name">Akash</span>'s birthday even more special.
+          Let us know if you can celebrate with us!</p>
+        <span class="section-head__ornament" aria-hidden="true"></span>
+      </header>
+
+      <form class="form reveal" id="rsvpForm" novalidate>
+        <div class="form__row">
+          <div class="field">
+            <label class="field__label" for="rsvpName">Full Name <span class="field__req" aria-hidden="true">*</span></label>
+            <input class="field__input" id="rsvpName" name="name" type="text" autocomplete="name" required
+                   placeholder="Your full name" aria-describedby="errName">
+            <p class="field__error" id="errName" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="rsvpPhone">Mobile Number <span class="field__opt">Optional</span></label>
+            <input class="field__input" id="rsvpPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel"
+                   placeholder="+91 98765 43210" aria-describedby="errPhone">
+            <p class="field__error" id="errPhone" role="alert"></p>
+          </div>
+        </div>
+
+        <div class="form__row">
+          <div class="field">
+            <label class="field__label" for="rsvpGuests">Number of Guests <span class="field__req" aria-hidden="true">*</span></label>
+            <input class="field__input" id="rsvpGuests" name="guests" type="number" min="1" max="10" step="1" required
+                   value="1" aria-describedby="errGuests">
+            <p class="field__error" id="errGuests" role="alert"></p>
+          </div>
+
+          <fieldset class="field field--choice">
+            <legend class="field__label">Attendance <span class="field__req" aria-hidden="true">*</span></legend>
+            <div class="choice">
+              <label class="choice__option">
+                <input type="radio" name="attendance" value="yes" required>
+                <span class="choice__box">Yes, I'll be there!</span>
+              </label>
+              <label class="choice__option">
+                <input type="radio" name="attendance" value="no" required>
+                <span class="choice__box">Sorry, I can't make it.</span>
+              </label>
+            </div>
+            <p class="field__error" id="errAttendance" role="alert"></p>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="rsvpWishes">Birthday Wishes <span class="field__opt">Optional</span></label>
+          <textarea class="field__input field__input--area" id="rsvpWishes" name="wishes" rows="4"
+                    placeholder="Write a warm message for Akash…" aria-describedby="errWishes"></textarea>
+          <p class="field__error" id="errWishes" role="alert"></p>
+        </div>
+
+        <div class="form__actions">
+          <button class="btn btn--gold btn--wide" id="rsvpSubmit" type="submit">
+            <span id="rsvpSubmitLabel">Confirm Attendance</span>
+          </button>
+          <p class="form__status" id="rsvpStatus" role="status" aria-live="polite"></p>
+        </div>
+
+        <p class="form__note" id="rsvpNote">
+          Your RSVP opens as a pre-filled WhatsApp message to the event organizer. Nothing is stored on this website.
+        </p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ============================================================
+     Footer
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__top">
+      <span class="site-footer__mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="40" height="40">
+          <circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1" opacity=".45"/>
+          <path d="M14 27 20 13l6 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16.5 22.5h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <p class="site-footer__title" data-bind="title">Akash's Birthday Celebration</p>
+      <p class="site-footer__date" data-bind="displayDate">Saturday, 20 February 2027</p>
+      <p class="site-footer__thanks">Thank you for celebrating with us!</p>
+    </div>
+
+    <nav class="site-footer__links" aria-label="Footer">
+      <a href="#home">Home</a>
+      <a href="#invitation">Invitation</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#venue">Venue</a>
+      <a href="#rsvp">RSVP</a>
+    </nav>
+
+    <div class="site-footer__base">
+      <p>© <span id="year">2027</span> <span data-bind="title">Akash's Birthday Celebration</span>. All rights reserved.</p>
+      <p>Website developed by <a href="https://digimaraa.com" target="_blank" rel="noopener noreferrer">Digimaraa Technologies</a></p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="backToTop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 19V5M5 12l7-7 7 7"/>
+  </svg>
+</button>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
