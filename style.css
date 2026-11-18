@@ -333,7 +333,7 @@ a { color: var(--rose); text-decoration-thickness: 1px; text-underline-offset: 3
   left: 50%;
   width: 2px;
   margin-left: -1px;
-  background: linear-gradient(180deg, transparent, rgba(255, 191, 0, 0.55), transparent);
+  background: linear-gradient(180deg, transparent, rgba(20, 14, 16, 0.9), transparent);
   opacity: 0;
   transition: opacity 300ms linear;
 }
